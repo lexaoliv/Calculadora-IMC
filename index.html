@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Cálculadora de IMC
+    </h1>
+    <form action="">
+        <label>Peso <br></label>
+        <input type="text" id="weightInput" name="weight"><br><br>
+        <label>Altura <br></label>
+        <input type="text" id="heightInput" name="height"><br><br>
+        <button type="button" onclick="calculateImc()">Calcular</button><br><br>
+        <div id="showImc"></div>   
+
+    </form> 
+    <!--<input type="text" id="meuInput">
+    <button onclick="getValueInput()">Obter Valor</button>-->
+    <p>
+    MENOR QUE 18,5	MAGREZA	0<br>
+    ENTRE 18,5 E 24,9	NORMAL	0<br>
+    ENTRE 25,0 E 29,9	SOBREPESO	I<br>
+    ENTRE 30,0 E 39,9	OBESIDADE	II<br>
+    MAIOR QUE 40,0	OBESIDADE GRAVE	III<br>
+    </p>
+    <script src="index.js"></script>
+</body>
+
+</html>
