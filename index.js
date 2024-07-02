@@ -32,5 +32,5 @@ function calculateImc() {
     //document.body.appendChild('123')
     
 };
-// calculateImc()  fffff
+// calculateImc() --------- ALTERAÇÃO DO MAX AQUI Ó ---------
 //ffff
